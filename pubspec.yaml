@@ -1,0 +1,62 @@
+# /pubspec.yaml
+name: africasoftdev_app
+description: Solutions digitales pour l'agriculture et l'élevage en Afrique
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Web/PWA
+  flutter_web_plugins:
+    sdk: flutter
+  
+  # UI et design
+  google_fonts: ^6.2.1
+  url_launcher: ^6.2.5
+  lottie: ^3.1.0
+  flutter_staggered_animations: ^1.1.1
+  
+  # Gestion d'état
+  provider: ^6.1.2
+  
+  # Navigation
+  go_router: ^14.0.1
+  
+  # Stockage
+  shared_preferences: ^2.2.3
+  
+  # Utilitaires
+  connectivity_plus: ^6.0.3
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/animations/
+  
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
